@@ -5,8 +5,8 @@ body {
   background-size: cover;
 }
 
-.banner{
-    height: 100%;
+.banner{ 
+    height: 50%;
     width: 100%;
 }
 .banner .navbar{
@@ -59,6 +59,205 @@ body {
     color: #ffffff;
     background-color: black;
 }
+
+
+
+/* -------RECOMENTATION PAGE------ */
+
+.banner2{ 
+    background: linear-gradient(180deg, rgba(169, 169, 169, 0) 46.19%, #2D2D2D 93.68%), url('assets/bg2.jpg');
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+.banner2 .navbar{
+    margin-top: 10px;
+}
+.banner2 .navbar-brand{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+.banner2 .nav {
+    margin-left: 10%;
+}
+.banner2 .nav li a {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+.banner2 .nav  .btn{
+    background-color:black;
+}
+
+.banner2 .info{
+    margin:60px 32px;
+    margin-bottom: 100px;
+
+}
+.banner2 .info h1{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.banner2 .info h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.banner2 .info a{
+    margin-top: 32px;
+    color: #000000;
+    background: white;
+    padding: 8px 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*recomented items */
+
+.banner3{ 
+    background: linear-gradient(180deg, rgba(169, 169, 169, 0) 46.19%, #2D2D2D 93.68%), url('assets/bgr2.jpg');
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+.banner3 .navbar{
+    margin-top: 10px;
+}
+.banner3 .navbar-brand{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+.banner3 .nav {
+    margin-left: 10%;
+}
+.banner3 .nav li a {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+.banner3 .nav  .btn{
+    background-color:black;
+}
+
+.banner3 .info{
+    margin:60px 32px;
+    margin-bottom: 100px;
+
+}
+.banner3 .info h1{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.banner3 .info h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.banner3 .info a{
+    margin-top: 32px;
+    color: #000000;
+    background: white;
+    padding: 8px 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+.product-grid6,
+.product-grid6 .product-image6 {
+  overflow: hidden;
+}
+.product-grid6 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+
+.product-grid6 .product-image6 a {
+  display: block;
+}
+.product-grid6 .product-image6 img {
+  border-radius: 8px;
+  width: 70%;
+  height: auto;
+}
+.product-grid6 .product-content {
+  padding: 12px 12px 15px;
+  transition: all 0.5s ease 0s;
+}
+.product-grid6 .title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+.product-grid6 .title a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.product-grid6 .author {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.product-grid6 .author span {
+  color: #999;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 7px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 990px) {
+  .product-grid6 {
+    margin-bottom: 30px;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+.h3,
+h3 {
+
+  color: #ffffff;
+  font-size: 1.75rem;
+  padding-top: 60px;
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+
+
+
+
+/*end of recomented items */
+
+
+
+/*------end of RECOMENTATION PAGE-------- */
+
+
+
 
 label {
   font-family: "Raleway", sans-serif;
@@ -389,12 +588,3 @@ label {
   color: #ffffff;
   background-color: black;
 }
-
-
-
-  
-
-
-
-
-
